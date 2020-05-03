@@ -764,8 +764,8 @@ id direct
 id disableHome
 id edit_query
 id end
-id etNumber1
-id etNumber2
+id etNumero1
+id etNumero2
 id expand_activities_button
 id expanded_menu
 id forever
@@ -856,7 +856,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id tvResult
+id tvResultado
 id unchecked
 id uniform
 id up

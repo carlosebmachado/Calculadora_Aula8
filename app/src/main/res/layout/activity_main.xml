@@ -12,7 +12,7 @@
         android:gravity="center">
 
         <TextView
-            android:id="@+id/tvResult"
+            android:id="@+id/tvResultado"
             android:layout_width="359dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -29,7 +29,7 @@
         android:gravity="center">
 
         <EditText
-            android:id="@+id/etNumber1"
+            android:id="@+id/etNumero1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_span="2"
@@ -38,7 +38,7 @@
             android:inputType="numberDecimal" />
 
         <EditText
-            android:id="@+id/etNumber2"
+            android:id="@+id/etNumero2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_span="2"

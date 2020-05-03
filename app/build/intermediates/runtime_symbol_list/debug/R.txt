@@ -763,8 +763,8 @@ int id direct 0x7f070055
 int id disableHome 0x7f070056
 int id edit_query 0x7f070057
 int id end 0x7f070058
-int id etNumber1 0x7f070059
-int id etNumber2 0x7f07005a
+int id etNumero1 0x7f070059
+int id etNumero2 0x7f07005a
 int id expand_activities_button 0x7f07005b
 int id expanded_menu 0x7f07005c
 int id forever 0x7f07005d
@@ -855,7 +855,7 @@ int id titleDividerNoCustom 0x7f0700b1
 int id title_template 0x7f0700b2
 int id top 0x7f0700b3
 int id topPanel 0x7f0700b4
-int id tvResult 0x7f0700b5
+int id tvResultado 0x7f0700b5
 int id unchecked 0x7f0700b6
 int id uniform 0x7f0700b7
 int id up 0x7f0700b8
