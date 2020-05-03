@@ -742,6 +742,7 @@ id beginning
 id blocking
 id bottom
 id btnAdicao
+id btnClear
 id btnDivisao
 id btnMultiplicacao
 id btnSubtracao

@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Calculator</string>
+    <string name="Calculadora">Calculator</string>
     <string name="adicao">+</string>
     <string name="subtracao">-</string>
     <string name="primeiro_numero">Primeiro número</string>
     <string name="segundo_numero">Segundo número</string>
+    <string name="divisao">/</string>
+    <string name="multiplicacao">*</string>
+    <string name="limpar_historico">Limpar histórico</string>
 </resources>

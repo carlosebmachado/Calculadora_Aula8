@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText num1;
     private EditText num2;
     private TextView res;
+    private ListView historico;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         num1 = findViewById(R.id.etNumero1);
         num2 = findViewById(R.id.etNumero2);
         res = findViewById(R.id.tvResultado);
+        historico = findViewById(R.id.lvHistorico);
     }
 
     private void selecionarOperacao(int op){
@@ -34,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             float r = 0F;
             float n1 = Float.valueOf(n1Str);
             float n2 = Float.valueOf(n2Str);
-            switch (op){
+            switch (op) {
                 case ADICAO:        r = n1 + n2; break;
                 case SUBTRACAO:     r = n1 - n2; break;
                 case MULTIPLICACAO: r = n1 * n2; break;
@@ -55,4 +58,8 @@ public class MainActivity extends AppCompatActivity {
     public void subtracao(View v) { selecionarOperacao(SUBTRACAO); }
     public void multiplicacao(View v) { selecionarOperacao(MULTIPLICACAO); }
     public void divisao(View v) { selecionarOperacao(DIVISAO); }
+
+    public void limparHistorico(View v) {
+
+    }
 }

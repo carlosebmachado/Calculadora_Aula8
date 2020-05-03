@@ -72,14 +72,40 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="multiplicacao"
-            android:text="*" />
+            android:text="@string/multiplicacao" />
 
         <Button
             android:id="@+id/btnDivisao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="divisao"
-            android:text="/" />
+            android:text="@string/divisao" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lvHistorico"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/limpar_historico" />
+        </LinearLayout>
     </TableRow>
 
 </TableLayout>
