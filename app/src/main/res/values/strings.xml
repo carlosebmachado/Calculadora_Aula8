@@ -1,5 +1,5 @@
 <resources>
-    <string name="Calculadora">Calculator</string>
+    <string name="app_name">Calculator</string>
     <string name="adicao">+</string>
     <string name="subtracao">-</string>
     <string name="primeiro_numero">Primeiro número</string>
