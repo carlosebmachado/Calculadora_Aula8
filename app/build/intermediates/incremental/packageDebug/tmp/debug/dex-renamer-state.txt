@@ -1,4 +1,4 @@
-#Sun May 03 10:40:26 BRT 2020
-base.0=C\:\\Users\\Panificadora Larissa\\OneDrive\\DESKTOP-UNIVALI\\PROGRAMACAO_III_(DISPOSITIVOS_MOVEIS)\\Calculator\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Wed May 06 19:39:38 BRT 2020
+base.0=D\:\\Documentos\\OneDrive\\DESKTOP-UNIVALI\\PROGRAMACAO_III_(DISPOSITIVOS_MOVEIS)\\Calculator\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

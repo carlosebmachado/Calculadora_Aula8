@@ -104,6 +104,7 @@
                 android:id="@+id/btnClear"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="limparHistorico"
                 android:text="@string/limpar_historico" />
         </LinearLayout>
     </TableRow>

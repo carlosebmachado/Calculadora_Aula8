@@ -31,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
         res = findViewById(R.id.tvResultado);
         historico = findViewById(R.id.lvHistorico);
         listaHistorico = new ArrayList<String>();
+        setHistorico();
+    }
+
+    private void setHistorico(){
         ArrayAdapter<List> arrayAdapter = new ArrayAdapter<List>(this, android.R.layout.simple_list_item_1, listaHistorico);
         historico.setAdapter(arrayAdapter);
     }
@@ -72,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
             }
             res.setText("" + r);
             Toast.makeText(this, mensagemFinal, Toast.LENGTH_LONG).show();
+            setHistorico();
         }
     }
 
@@ -81,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
     public void divisao(View v) { selecionarOperacao(DIVISAO); }
 
     public void limparHistorico(View v) {
+        setHistorico();
         listaHistorico.clear();
     }
 }
